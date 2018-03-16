@@ -1,4 +1,13 @@
 <resources>
-    <string name="app_name">Default</string>
-    <string name="lbl_acerta">Acerta Numero</string>
+    <string name="app_name">AcertaNumero</string>
+    <string name="lblOi">Numero :</string>
+    <string name="lblRecebe"> ... </string>
+    <string name="lblConfirma"> OK </string>
+    <string name="lblPlacar">Ver placar</string>
+    <string name="lblResultado">   </string>
+    <string name="lblResultado2"> Congratulations!!!  </string>
+    <string name="lblResultado3"> Voce errou, tente novamente.  </string>
+    <string name="lblResultado4"> Fim das tentativas!  </string>
+    <string name="lblResultado5"> O numero informado é maior, tente um menor!  </string>
+    <string name="lblResultado6"> O numero informado é menor, tente um maior!  </string>
 </resources>
