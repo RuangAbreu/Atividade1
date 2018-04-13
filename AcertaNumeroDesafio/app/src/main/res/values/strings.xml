@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Acerta Numero</string>
+    <string name="lblGanhou">Congratulatios !!!! YOU WIN</string>
+    <string name="score">Best Score</string>
+    <string name="tentar">✔</string>
+    <string name="recomecar">⟲</string>
+</resources>
