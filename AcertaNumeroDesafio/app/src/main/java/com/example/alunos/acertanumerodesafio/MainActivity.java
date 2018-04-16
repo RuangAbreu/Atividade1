@@ -1,4 +1,4 @@
-package com.example.alunos.acertanumero;
+package com.example.alunos.acertanumerodesafio;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void Tentar(View V ) {
         EditText entrada = (EditText) findViewById(R.id.editText);
-        TextView etiqueta = (TextView) findViewById(R.id.textview);
+        TextView etiqueta = (TextView) findViewById(R.id.textView);
         String ns = entrada.getText().toString();
         int n = Integer.parseInt(ns);
         if(n == this.numero) {
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void Reiniciar(View V){
-        TextView etiqueta = (TextView) findViewById(R.id.textview);
+        TextView etiqueta = (TextView) findViewById(R.id.textView);
         EditText entrada = (EditText) findViewById(R.id.editText);
         etiqueta.setText(" ");
         entrada.setText(" ");
